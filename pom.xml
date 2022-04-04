@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.multimodule</groupId>
+	<artifactId>inhouse</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>inhouse</name>
+	<description>automationframework</description>
+	<packaging>pom</packaging>
+	<modules>
+		<module>framework</module>
+		<module>appium-service</module>
+		<module>browser</module>
+		<module>browserstack</module>
+<!--		<module>saucelabs</module>-->
+<!--		<module>main/pom.xml</module>-->
+	</modules>
+<!--	<repositories>-->
+<!--		<repository>-->
+<!--			<id>spring-releases</id>-->
+<!--			<url>https://repo.spring.io/libs-release</url>-->
+<!--		</repository>-->
+<!--	</repositories>-->
+<!--	<pluginRepositories>-->
+<!--		<pluginRepository>-->
+<!--			<id>spring-releases</id>-->
+<!--			<url>https://repo.spring.io/libs-release</url>-->
+<!--		</pluginRepository>-->
+<!--	</pluginRepositories>-->
+<!--	<properties>-->
+<!--		<java.version>11</java.version>-->
+<!--	</properties>-->
+</project>
